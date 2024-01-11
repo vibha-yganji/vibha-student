@@ -25,7 +25,7 @@ twitter_username: sass
 github_username:  jekyll
 
 # Build settings
-markdown: kramdown
+markdown: minima
 theme: listen
 plugins:
   - jekyll-feed
