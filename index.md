@@ -5,3 +5,38 @@
 layout: home
 ---
 
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Page Title</title>
+    <!-- Add your CSS styles or external stylesheet links here -->
+    <style>
+      ul {
+        list-style-type: none;
+      }
+     
+    </style>
+</head>
+<body>
+
+  <header class="site-header">
+
+    <div id="header">
+      <nav>
+        <ul style = "display: flex; justify-content: space-between; border: 2px solid black; padding: 20px; border-radius: 20px;">
+          <li class="fork"><a href="../index.md">Home</a></li>
+          <li class="fork"><a href="../compsci.md">CompSci</a></li>
+          <li class="fork"><a href="../indexBlogs.md">Blogs</a></li>
+          <li class="title"><a href="{{ site.github.repository_url }}#readme">View On GitHub</a></li>
+        </ul>
+      </nav>
+    </div><!-- end header -->
+  </header>
+  
+  
+  
+</body>
+</html>
